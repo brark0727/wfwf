@@ -1,0 +1,79 @@
+.todo-container {
+  width: 100%;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.todo-input button {
+  background-color: #f50057;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.todo-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-main, .todo-sub {
+  width: 48%;
+}
+
+.todo-main h3, .todo-sub h3 {
+  text-align: center;
+}
+
+.todo-main ul, .todo-sub ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-main li, .todo-sub li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-main li input, .todo-sub li input {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;;
+}
+
+.todo-item {
+  border-bottom: 1px solid blue; /* 모든 아이템에 파란색 밑줄 추가 */
+  padding: 10px; /* 패딩 추가 */
+  margin-bottom: 5px; /* 아래 여백 추가 */
+}
+
+li {
+  border-bottom: 1px solid blue; /* 모든 목록 아이템에 파란색 밑줄 추가 */
+}
+
+.save-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute; /* Adjust positioning as necessary */
+  bottom: 20px; /* Adjust based on actual positioning needs */
+  right: 20px;
+}
+
+
